@@ -1,0 +1,4 @@
+{
+    // "configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.generator": "Unix Makefiles",
+}

@@ -1,0 +1,8 @@
+# ignore output binaries
+build/
+# ignore cmake generate files
+*Makefile
+# ignore cmake cahe files
+*CMakeFiles/
+# ignore vscode settings file
+# .vscode/
