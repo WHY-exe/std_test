@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.11...3.20)
 # 当前二进制对象
-set(current_bin_name common)
+set(current_bin_name other)
 # 设置c++标准
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -19,6 +19,7 @@ target_include_directories(${current_bin_name}
     PRIVATE
     ${INCLUDE_BASE}
     ${INCLUDE_BASE}/common
+    ${INCLUDE_BASE}/other
 )
 # 设置链接路径
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR})
